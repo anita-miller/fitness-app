@@ -1,0 +1,78 @@
+<!-- views/index.ejs -->
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Digicache</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/homepage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class = "heading">
+        <!-- HEADING & DESCRIPTION-->
+        <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 text-center">
+          <h1 class = "logo_word">DIGICACHE.</h1>
+        </div>
+        <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 text-center">
+          <h2 class = "subheading">Hunt treasure<br>Improve your lifestyle<br>Do it with friends</h2>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <!--LOGIN & SIGNUP BUTTONS-->
+    <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 text-center">
+      <a href="/login"><div class="btn btn-primary btns" >LOGIN</div></a> <br>
+    </div>
+    <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 text-center">
+      <a href="/signup"><div class="btn btn-warning btns">SIGNUP</div></a>
+    </div>
+
+</div>
+
+<div class="navbar navbar-default navbar-fixed-bottom" id="about">
+  <p data-toggle="modal" data-target="#infoModal">
+    What is Digicache?
+  </p>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="infoModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="myModalLabel">What is Digicache?</h2>
+      </div>
+      <div class="modal-body">
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis
+          convallis dignissim. Donec porta massa congue mauris malesuada
+          scelerisque eget sit amet neque. Morbi dapibus dapibus nibh vitae
+          sagittis. Donec iaculis lectus mollis nisi tempus ullamcorper. Aliquam
+          a nunc tincidunt lectus dictum convallis. Sed mattis consectetur lacus
+          non eleifend. Nulla eget dolor magna
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

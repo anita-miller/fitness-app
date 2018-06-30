@@ -1,0 +1,70 @@
+<!-- views/signup.ejs -->
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Digicache</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/signup.css">
+</head>
+
+
+<body>
+<!--
+<script>
+    function validateSignup() {
+        var fields = document.getElementsByClassName("form-group");
+        for (var i = 0; i < fields.length; i++) {
+            if (fields[i].value == "") {
+                alert("All fields must be filled out");
+                return false;
+            }
+        }
+    }
+
+</script>
+-->
+
+<div class="page">
+
+
+    <div class = "heading">
+        <a href="/"><h1 class = "logo_word">DIGICACHE.</h1></a>
+    </div>
+
+    <!-- ALERT IF ERROR -->
+    <% if (message.length > 0) { %>
+    <div class="alert"><%= message %></div>
+    <% } %>
+
+    <!--SIGNUP FORM-->
+    <div class="signupform">
+    <form name = "signup" action="/signup" method="POST">
+            <div class="form-group">
+                <label>First Name</label> <br>
+                <input type="text" name="fname" required> <br>
+                <label>Last Name</label> <br>
+                <input type="text" name="lname" required>
+            </div>
+            <div class="form-group">
+                <label>Email</label> <br>
+                <input type="text" name="email" required> <br>
+                <label>Password</label> <br>
+                <input type="password" name="password" required> <br>
+            </div>
+        <button type="submit" class="btn btn-warning btns" id="signup">SIGNUP</button>
+    </form>
+    </div>
+
+</div>
+</body>
+</html>

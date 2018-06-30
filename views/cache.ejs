@@ -1,0 +1,138 @@
+<!-- views/index.ejs -->
+<!doctype html>
+<html>
+<head>
+  <title>Digicache</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+  <script src="/js/cache.js"></script>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+  <link rel="stylesheet" type="text/css" href="/css/cache.css">
+  <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat|Raleway" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class ="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><h4>Digicache</h4></a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/map"><h4>Map</h4><span class="sr-only">(current)</span></a></li>
+        <li><a href="/profile"><h4>Profile</h4></a></li>
+        <li><a href="/Ranking"><h4>Ranks</h4></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="outerDiv">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <img class="img-responsive center-block" src=<%=cache.location.imgLarge %> alt=<%=cache.location.name %> />
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+    <h1><%=cache.location.name%></h1>
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <p><%=cache.location.description %></p>
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+      <input id="openCacheButton" class="btn btn-primary" type="button" value="Open Cache" onclick="openCache(<%= cache.id %> );" />
+  </div>
+  <!-- Admin users can edit caches -->
+  <% if (isAdmin) { %>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+      <button id="editCacheButton" class="btn btn-primary" type="button" value="Edit Cache" data-toggle="modal" data-target="#updateCacheModal">
+        Edit Cache
+      </button>
+  </div>
+  <% } %>
+  <% if (openAttempted) { %>
+    <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 text-center">
+      <div class="alert alert-danger"><p>Sorry! Your not close enough to open that cache!</p></div>
+    </div>
+  <%}%>
+</div>
+
+<div class="modal fade" id="updateCacheModal" tabindex="-1" role="dialog" aria-labelledby="updateCacheModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="updateCache">Update Cache</h2>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal" action="addCache" method="post" autocomplete="off">
+          <div class="form-group">
+            <label class="col-xs-12 col-sm-12 col-md-4 col-lg-4 control-label" for="cacheName">Cache Name</label>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <input id="name" name="name" type="text" value= <%= cache.location.name %> class="form-control input-md" required="">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-xs-12 col-sm-12 col-md-4 col-lg-4 control-label" for="cacheID">Cache ID</label>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <input id="cacheID" name="cacheID" type="text" value= <%= cache.id %> class="form-control input-md" readonly>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-xs-12 col-sm-12 col-md-4 col-lg-4 control-label" for="location">Lat</label>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <input id="lat" name="lat" type="text" value=<%= cache.location.lat %> class="form-control input-md" required="">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-xs-12 col-sm-12 col-md-4 col-lg-4 control-label" for="location">Lng</label>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <input id="lng" name="lng" type="text" value=<%= cache.location.lng %> class="form-control input-md" required="">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-xs-12 col-sm-12 col-md-4 col-lg-4 control-label" for="imgs">Image small</label>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <input id="imgSmall" name="imgSmall" type="text" value=<%= cache.location.imgSmall %> class="form-control input-md" required="">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-xs-12 col-sm-12 col-md-4 col-lg-4 control-label" for="imgs">Image Large</label>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <input id="imgLarge" name="imgLarge" type="text" value=<%= cache.location.imgLarge %> class="form-control input-md" required="">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-xs-12 col-sm-12 col-md-4 col-lg-4 control-label" for="description">description</label>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <textarea id="description" name="description" type="text" class="form-control input-md" required="">
+                <%= cache.location.description %>
+              </textarea>
+            </div>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

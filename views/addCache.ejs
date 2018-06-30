@@ -1,0 +1,64 @@
+<head>
+  <title>Digicache</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/addCache.css">
+  <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat|Raleway" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <form class="form-horizontal" action="addCache" method="post" autocomplete="off">
+      <div class="form-group">
+        <label class="col-xs-12 col-sm-12 col-md-4 col-lg-4 control-label" for="cacheName">Cache Name</label>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <input id="name" name="name" type="text" placeholder="" class="form-control input-md" required="">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-xs-12 col-sm-12 col-md-4 col-lg-4 control-label" for="location">Lat</label>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <input id="lat" name="lat" type="text" placeholder="" class="form-control input-md" required="">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-xs-12 col-sm-12 col-md-4 col-lg-4 control-label" for="location">Lng</label>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <input id="lng" name="lng" type="text" placeholder="" class="form-control input-md" required="">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-xs-12 col-sm-12 col-md-4 col-lg-4 control-label" for="imgs">Image small</label>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <input id="imgSmall" name="imgSmall" type="text" placeholder="" class="form-control input-md" required="">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-xs-12 col-sm-12 col-md-4 col-lg-4 control-label" for="imgs">Image Large</label>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <input id="imgLarge" name="imgLarge" type="text" placeholder="" class="form-control input-md" required="">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-xs-12 col-sm-12 col-md-4 col-lg-4 control-label" for="description">description</label>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <textarea id="description" name="description" type="text" placeholder="" class="form-control input-md" required="">
+          </textarea>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+          <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+    </form>
+</body>

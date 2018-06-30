@@ -1,0 +1,72 @@
+body {
+    font-size: 100%;
+    background-image: url(../images/background6.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+
+/* https://stackoverflow.com/questions/24154666/background-size-cover-not-working-on-ios */
+body:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url(../images/background6.jpg) center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    color: ghostwhite;
+    text-shadow: -2px 0 midnightblue, 0 1px midnightblue, 2px 0 midnightblue, 0 -1px midnightblue;
+    font-size: 15vw;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    text-align: center;
+}
+
+
+.btn {
+    box-sizing: border-box;
+    padding: 1vw 10vw;
+    margin: 0.5vw;
+    font-size:2vw;
+
+}
+
+.login{
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.signup{
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+
+#about{
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    text-align: center;
+    background-color:darkorange;
+    padding:1vw;
+    cursor: pointer;
+    font-size: 2vh;
+}
+
+.modal-body {
+  font-size: 10pt;
+}

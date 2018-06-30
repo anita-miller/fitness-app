@@ -1,0 +1,102 @@
+.page{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.2fr 2fr 2fr;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    background-image: url(../images/ccc.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+
+/* https://stackoverflow.com/questions/24154666/background-size-cover-not-working-on-ios */
+body:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url(../images/ccc.jpeg) center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+.btns {
+    box-sizing: border-box;
+    padding: 1vw 8vw;
+    margin: 0.5vw;
+    font-size: 2vw;
+    width: 35%;
+    background-color: #f0ad4e;
+    border-color: #eea236
+}
+
+.heading{
+    grid-row:1/2;
+    grid-column: 2/6;
+
+}
+
+.alert{
+    grid-row:2/3;
+    grid-column:3/5;
+    text-align:center;
+    font-family:'Montserrat', sans-serif;
+    font-weight:bold;
+    font-size:1.5vw;
+    color:ghostwhite;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10vw;
+    text-align:center;
+    color: ghostwhite;
+    text-shadow: -2px 0 midnightblue, 0 1px midnightblue, 2px 0 midnightblue, 0 -1px midnightblue;
+
+}
+
+.signupform{
+    grid-row: 3/6;
+    grid-column: 1/7;
+    text-align:center;
+    box-sizing:border-box;
+    padding: 1vw;
+    margin:1vw;
+}
+
+.form-group{
+    text-align:center;
+}
+
+label{
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+input{
+    font-size:1.5vw;
+    box-sizing:border-box;
+    padding: 1vw 2vw;
+    margin: 0.75vw;
+    width:40%;
+    border: 0.1vw;
+    border-color: grey;
+    border-style: solid;
+}
+
+a:hover, a:focus {
+    background-color: transparent;
+    text-decoration: none;
+}

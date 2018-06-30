@@ -1,0 +1,41 @@
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+h1 {
+  font-size: 72px;
+}
+#openCacheButton {
+  margin-bottom: 1%;
+}
+
+img {
+  max-height: 500px;
+}
+
+body {
+    background: #c3e4f5;
+}
+
+/* https://stackoverflow.com/questions/24154666/background-size-cover-not-working-on-ios */
+body:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url(../images/ccc.jpeg) center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+@media (max-width: 992px) {
+  .outerDiv {
+    text-align: center;
+  }
+}
