@@ -3,6 +3,70 @@
   <component name="ChangeListManager">
     <list default="true" id="706ab138-1e44-4b49-ba32-cc8ed61344e2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn/AUTHORS" afterPath="$PROJECT_DIR$/node_modules/acorn/AUTHORS" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/acorn/CHANGELOG.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn/README.md" afterPath="$PROJECT_DIR$/node_modules/acorn/README.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn/bin/_acorn.js" afterPath="$PROJECT_DIR$/node_modules/acorn/bin/_acorn.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn/bin/run_test262.js" afterPath="$PROJECT_DIR$/node_modules/acorn/bin/run_test262.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn/dist/acorn.es.js" afterPath="$PROJECT_DIR$/node_modules/acorn/dist/acorn.es.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn/dist/acorn.js" afterPath="$PROJECT_DIR$/node_modules/acorn/dist/acorn.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn/dist/acorn_loose.es.js" afterPath="$PROJECT_DIR$/node_modules/acorn/dist/acorn_loose.es.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn/dist/acorn_loose.js" afterPath="$PROJECT_DIR$/node_modules/acorn/dist/acorn_loose.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn/dist/walk.es.js" afterPath="$PROJECT_DIR$/node_modules/acorn/dist/walk.es.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn/dist/walk.js" afterPath="$PROJECT_DIR$/node_modules/acorn/dist/walk.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn/package.json" afterPath="$PROJECT_DIR$/node_modules/acorn/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn/yarn-error.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-escapes/index.js" afterPath="$PROJECT_DIR$/node_modules/ansi-escapes/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-escapes/package.json" afterPath="$PROJECT_DIR$/node_modules/ansi-escapes/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-escapes/readme.md" afterPath="$PROJECT_DIR$/node_modules/ansi-escapes/readme.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-from/package.json" afterPath="$PROJECT_DIR$/node_modules/buffer-from/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-from/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chalk/node_modules/supports-color/index.js" afterPath="$PROJECT_DIR$/node_modules/chalk/node_modules/supports-color/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chalk/node_modules/supports-color/package.json" afterPath="$PROJECT_DIR$/node_modules/chalk/node_modules/supports-color/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chalk/package.json" afterPath="$PROJECT_DIR$/node_modules/chalk/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chalk/readme.md" afterPath="$PROJECT_DIR$/node_modules/chalk/readme.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-convert/conversions.js" afterPath="$PROJECT_DIR$/node_modules/color-convert/conversions.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-convert/package.json" afterPath="$PROJECT_DIR$/node_modules/color-convert/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-name/.eslintrc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-name/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-name/README.md" afterPath="$PROJECT_DIR$/node_modules/color-name/README.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-name/index.js" afterPath="$PROJECT_DIR$/node_modules/color-name/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-name/package.json" afterPath="$PROJECT_DIR$/node_modules/color-name/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-name/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/eslint/package.json" afterPath="$PROJECT_DIR$/node_modules/eslint/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/esquery/esquery.js" afterPath="$PROJECT_DIR$/node_modules/esquery/esquery.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/esquery/package.json" afterPath="$PROJECT_DIR$/node_modules/esquery/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/esquery/parser.js" afterPath="$PROJECT_DIR$/node_modules/esquery/parser.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/external-editor/README.md" afterPath="$PROJECT_DIR$/node_modules/external-editor/README.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/external-editor/example_sync.js" afterPath="$PROJECT_DIR$/node_modules/external-editor/example_sync.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/external-editor/main/index.js" afterPath="$PROJECT_DIR$/node_modules/external-editor/main/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/external-editor/package.json" afterPath="$PROJECT_DIR$/node_modules/external-editor/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/globals/globals.json" afterPath="$PROJECT_DIR$/node_modules/globals/globals.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/globals/package.json" afterPath="$PROJECT_DIR$/node_modules/globals/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ignore/ignore.js" afterPath="$PROJECT_DIR$/node_modules/ignore/ignore.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ignore/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/ignore/index.d.ts" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ignore/package.json" afterPath="$PROJECT_DIR$/node_modules/ignore/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-yaml/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/js-yaml/CHANGELOG.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-yaml/dist/js-yaml.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/dist/js-yaml.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-yaml/dist/js-yaml.min.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/dist/js-yaml.min.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/dumper.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/dumper.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/js/function.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/js/function.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-yaml/package.json" afterPath="$PROJECT_DIR$/node_modules/js-yaml/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lru-cache/index.js" afterPath="$PROJECT_DIR$/node_modules/lru-cache/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lru-cache/package.json" afterPath="$PROJECT_DIR$/node_modules/lru-cache/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/README.md" afterPath="$PROJECT_DIR$/node_modules/readable-stream/README.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/readable-stream/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regexpp/index.js" afterPath="$PROJECT_DIR$/node_modules/regexpp/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regexpp/index.js.map" afterPath="$PROJECT_DIR$/node_modules/regexpp/index.js.map" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regexpp/package.json" afterPath="$PROJECT_DIR$/node_modules/regexpp/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/which/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/which/CHANGELOG.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/which/package.json" afterPath="$PROJECT_DIR$/node_modules/which/package.json" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,11 +90,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/eslint/lib/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="296" column="26" lean-forward="false" selection-start-line="296" selection-start-column="26" selection-end-line="296" selection-end-column="26" />
+            <state relative-caret-position="4275">
+              <caret line="285" column="28" lean-forward="false" selection-start-line="285" selection-start-column="28" selection-end-line="285" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -40,6 +124,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app.js" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
@@ -53,7 +144,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="190" />
+    <option name="x" value="613" />
     <option name="y" value="23" />
     <option name="width" value="1088" />
     <option name="height" value="771" />
@@ -150,12 +241,12 @@
       <workItem from="1530367173937" duration="127000" />
       <workItem from="1530367303985" duration="1328000" />
       <workItem from="1530368725763" duration="754000" />
-      <workItem from="1530369622244" duration="515000" />
+      <workItem from="1530369622244" duration="943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2724000" />
+    <option name="totallyTimeSpent" value="3152000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -167,7 +258,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="190" y="23" width="1088" height="771" extended-state="0" />
+    <frame x="613" y="23" width="1088" height="771" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2492971" sideWeight="0.49227372" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -178,7 +270,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2492971" sideWeight="0.50772625" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -251,13 +343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -277,8 +362,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/eslint/lib/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="296" column="26" lean-forward="false" selection-start-line="296" selection-start-column="26" selection-end-line="296" selection-end-column="26" />
+        <state relative-caret-position="4275">
+          <caret line="285" column="28" lean-forward="false" selection-start-line="285" selection-start-column="28" selection-end-line="285" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding />
         </state>
       </provider>

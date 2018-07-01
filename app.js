@@ -17,7 +17,7 @@ const redirectToHTTPS = require('express-http-to-https').redirectToHTTPS;
 require('./config/passport.js')(passport); // Configure passport
 
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 
 // CONFIG
 mongoose.connect(process.env.MONGODB_URI);
